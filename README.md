@@ -34,6 +34,8 @@ Supported commands:
   * `repository` - address of the repo
   * `branch` - current branch
   * `branches` - all the branches in the repo
+  * `head` - head sha
+  * `showbranch` - show branch commit info
 
 
 ### To Do ###
