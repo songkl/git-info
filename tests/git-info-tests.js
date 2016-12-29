@@ -37,5 +37,9 @@ gi('branch', function(err, result) {
   assert.equal(result.branch.indexOf('* '), -1);
 });
 
+gi('head', function(err, result) {
+  assert(!err);
+});
+
 
 // On the other hand - 'Hope is when you feel the pain that makes you try again'

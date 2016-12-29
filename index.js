@@ -13,7 +13,8 @@ var commands = {
   authors: 'git log --all --format=\'%aN <%cE>\' | sort -u',
   repository: 'git config --get remote.origin.url',
   branch: 'git branch | grep "*"',
-  branches: 'git branch'
+  branches: 'git branch',
+  head: 'git rev-parse HEAD'
 };
 
 // this object will be sent to callback, with all the answers
