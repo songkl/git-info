@@ -14,7 +14,7 @@ var commands = {
   repository: 'git config --get remote.origin.url',
   branch: 'git branch | grep "*"',
   branches: 'git branch',
-  head: 'git rev-parse HEAD',
+  head: 'git rev-parse --short=8 HEAD',
   showbranch:'git show-branch'
 };
 
